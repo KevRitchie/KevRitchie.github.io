@@ -5,7 +5,7 @@ date:   2020-06-06 22:18:52 +0100
 categories: certifications
 ---
 
-## I've taken many Microsoft exams over the years, but this was the first time sitting one in the comfort of my own home. ##
+**I've taken many Microsoft exams over the years, but this was the first time sitting one in the comfort of my own home.**
 
 Honestly, I was dreading the experience, but I'm not too sure why?
 
@@ -37,4 +37,4 @@ As you can tell, I did successfully pass.
 
 I appreciate that AZ-203 is shortly going to expire in lieu of AZ-204 being released, but should anyone be going down that path and want to know what study material I used, I used Pluralsight.
 
-The course can be found here.  Be prepared, there's 59 hours worth of content!  It's a couple of years out of date so expect some things to look and work a little differently, but nothing major to worry about.
+The course can be found [here](https://www.pluralsight.com/paths/developing-solutions-for-microsoft-azure-az-203).  Be prepared, there's 59 hours worth of content!  It's a couple of years out of date so expect some things to look and work a little differently, but nothing major to worry about.
