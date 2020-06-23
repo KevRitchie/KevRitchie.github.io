@@ -39,7 +39,7 @@ cayman-blog:
 theme: 
 
 # social
-author: kevritchie
+author: Kev Ritchie
 image: /thumbnail-jumbo.png
 twitter:
   username: kevritchie
@@ -52,7 +52,7 @@ plugins:
 target-blank:
   rel: nofollow
 
-header_page_refs: ['now', 'about', 'contact']
+header_page_refs: ['about', 'contact']
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
