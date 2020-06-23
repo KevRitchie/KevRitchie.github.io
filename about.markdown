@@ -2,12 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-tagline: All about me
+tagline: 
 ref: about
 order: 1
 ---
 
-![Me](/_images/me.jpg)
+<img src="/images/me.jpg" alt="me" style="display: block; margin-left: auto; margin-right: auto;"
+width="auto" height="250px"/>
 
 I'm a Microsoft Certified Professional Developer, Database Developer and Web Developer with over 20 years’ experience in software development and work primarily in C#.  A long way from changing screen colours and making music on my C64.
 
