@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Passed the Azure Developer Associate Exam"
 date:   2020-06-06 22:18:52 +0100
 categories: certifications

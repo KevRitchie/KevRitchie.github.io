@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "What year is it?!"
 date:   2019-09-11 22:18:52 +0100
 categories: me
