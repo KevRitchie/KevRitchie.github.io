@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
+tagline: All about me
+ref: about
+order: 1
 ---
 
-![](/_images/me.jpg)
+![Me](/_images/me.jpg)
 
 I'm a Microsoft Certified Professional Developer, Database Developer and Web Developer with over 20 years’ experience in software development and work primarily in C#.  A long way from changing screen colours and making music on my C64.
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Passed the Azure Developer Associate Exam"
 date:   2020-06-06 22:18:52 +0100
 categories: certifications
@@ -39,3 +39,5 @@ As you can tell, I did successfully pass.
 I appreciate that AZ-203 is shortly going to expire in lieu of AZ-204 being released, but should anyone be going down that path and want to know what study material I used, I used Pluralsight.
 
 The course can be found [here](https://www.pluralsight.com/paths/developing-solutions-for-microsoft-azure-az-203).  Be prepared, there's 59 hours worth of content!  It's a couple of years out of date so expect some things to look and work a little differently, but nothing major to worry about.
+
+[Go to the Home Page]({{ '/' | absolute_url }})
