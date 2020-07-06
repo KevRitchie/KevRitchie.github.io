@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using Azure DevOps and Power Automate to create a basic Product Roadmap"
+title:  "Using Azure DevOps and Power Automate to create a basic Report"
 date:   2020-07-03 21:39:52 +0100
 categories: azure devops reporting power automate
 ---
