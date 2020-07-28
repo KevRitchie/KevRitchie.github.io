@@ -21,7 +21,7 @@
 title: Kev Ritchie
 email: kev-the-dev@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Husband, Father & Coder with over 20 years developer experience working primarily on the Microsoft stack. 
+  Husband, Father & Coder working primarily on the Microsoft stack and building things in Azure. 
   Currently working as the Development Team Leader at Paradise Computing Ltd.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
