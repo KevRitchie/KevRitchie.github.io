@@ -2,3 +2,10 @@
 ---
 
 @import 'jekyll-theme-cayman-blog';
+
+.profilepic { display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%; }
