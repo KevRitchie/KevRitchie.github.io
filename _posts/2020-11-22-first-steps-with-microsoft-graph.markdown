@@ -63,7 +63,8 @@ For this application we used the HttpClient to connect to the Graph.
 
 First, we’ll need access to our appSettings.json file to get our Tenant ID etc.
 
-```IConfigurationRoot configuration = new ConfigurationBuilder()
+```
+IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                 .AddJsonFile("appsettings.json")
                 .Build();
@@ -80,7 +81,8 @@ We’ll then generate our Authentication URI which will be used in our Confident
 
 We’ll now create our ConfidentialClientApplicationBuilder to help generate our token to pass in the headers of our HTTP request.
 
-```IConfidentialClientApplication confidentialClient = ConfidentialClientApplicationBuilder
+```
+IConfidentialClientApplication confidentialClient = ConfidentialClientApplicationBuilder
                     .Create(clientId)
                     .WithAuthority(authority)
                     .WithClientSecret(clientSecret)
@@ -123,7 +125,8 @@ With the Id, we can then do things like, grab the employee’s photo to show on 
 
 `var photoRequest = await _httpClient.GetAsync("https://graph.microsoft.com/v1.0/users('" + userId + "')/photo/$value");`
 
-```if (photoRequest.IsSuccessStatusCode)
+```
+if (photoRequest.IsSuccessStatusCode)
 {
     var photo = await photoRequest.Content.ReadAsByteArrayAsync();
 
