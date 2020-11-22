@@ -10,12 +10,12 @@ I’ve been interested in Microsoft Graph for some time now but never really had
 Recently an opportunity presented itself to put it to use.  Creating a visitor booking in application.
 The application was built using Blazor (Server Side) with Telerik components and has a SQL Server Databases on the backend to store visit information.
 
-The requirement was as simple one.  Record some visitor information, agreement to Health & Safety policy, select an employee and notify that employee that a visitor has arrived to see them.
+The requirement was a simple one.  Record some visitor information, agreement to Health & Safety policy, select an employee and notify that employee that a visitor has arrived to see them.
 As this blog post is about Microsoft’s Graph, I’ll keep the details to just that.
 
 **Getting Started**
 
-To get started we’ll need to download the Microsoft.Identity.Client Nuget package.  This will allow us to create the ConfidentialClientApplicationBuilder to generate a token to pass in the request headers when we communicate with the Graph.
+To get started we’ll need to download the Microsoft.Identity.Client Nuget package into our project.  This will allow us to create the ConfidentialClientApplicationBuilder to generate a token to pass in the request headers when we communicate with the Graph.
 
 Next, we’ll need to store a reference to our authentication authority (https://login.microsoftonline.com/), Tenant ID, Client ID and Client Secret.  For the purpose of this application as it’s internal to us, we’ll store the details in our appSettings.json file.  For any customer-based applications we would be storing these details in the [Azure Key Vault](https://azure.microsoft.com/en-gb/services/key-vault/).
 
@@ -59,7 +59,7 @@ With that done, we’ll make note of our Tenant (Directory) ID and Client (Appli
 
 **How to connect to the Graph**
 
-For this application we used the HttpClient to connect to the Graph.
+For this application we used the HTTP Client to connect to the Graph.
 
 First, we’ll need access to our appSettings.json file to get our Tenant ID etc.
 
@@ -123,9 +123,9 @@ Looping through the employees (userArray) we can then pull out details like Id, 
 
 With the Id, we can then do things like, grab the employee’s photo to show on the Select Employee screen:
 
-`var photoRequest = await _httpClient.GetAsync("https://graph.microsoft.com/v1.0/users('" + userId + "')/photo/$value");`
-
 ```
+var photoRequest = await _httpClient.GetAsync("https://graph.microsoft.com/v1.0/users('" + userId + "')/photo/$value");
+
 if (photoRequest.IsSuccessStatusCode)
 {
     var photo = await photoRequest.Content.ReadAsByteArrayAsync();
@@ -145,7 +145,7 @@ To notify the employee that a visitor had arrived we used Power Automate and Flo
 
 **Summary**
 
-In summary, connecting into Microsoft’s Graph was real easy and there is a vast amount of documentation on https://docs.microsoft.com  to help you get started.  I just thought it useful to document are dalliance with the Graph.
+In summary, connecting into Microsoft’s Graph was real easy and there is a vast amount of documentation on it at https://docs.microsoft.com to help you get started.  I just thought it useful to document our dalliance with the Graph.
 
 Am I a Graph believer?  You bet I am.  The possibilities are endless, and we’ve already built a holiday/vacation Blazor application too that hooks into the Graph!
 
