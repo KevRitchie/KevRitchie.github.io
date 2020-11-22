@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Microsoft Graph - First Steps"
-date:   2020-10-26 15:48:42 +0100
+date:   2020-11-22 23:27:31 +0100
 categories: azure microsoft graph app registrations
 ---
 
