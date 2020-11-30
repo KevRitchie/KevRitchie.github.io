@@ -47,6 +47,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-target-blank
+  - jekyll-gist
 
 target-blank:
   rel: nofollow

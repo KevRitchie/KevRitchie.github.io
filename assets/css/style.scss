@@ -9,3 +9,33 @@
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 50%; }
+
+.column1 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+  
+.column2 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.post-list { margin-left: 0; list-style: none; list-style-position:inside; margin:0; padding:0; }
+
+.main-content { max-width: 100%; padding: 3rem 4rem; margin: 0 auto; font-size: 1.1rem; }
+
+.site-footer { text-align: center; }

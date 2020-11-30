@@ -6,25 +6,36 @@ layout: default
 
   {{ content }}
 
-  <h2>Latest Posts</h2>
+  <div class="row">
 
-  <div>&nbsp;</div>
+    <div class="column1">
+      <h2>Latest Posts</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+      <div>&nbsp;</div>
 
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-        </h2>
+            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        {{ post.excerpt | markdownify | truncatewords: 30 }}
+            <h2>
+              <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+            </h2>
 
-      </li>
-    {% endfor %}
-  </ul>
+            {{ post.excerpt | markdownify | truncatewords: 30 }}
+
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column2">
+      <h2>Follow me on Twitter</h2>
+      <div class='jekyll-twitter-plugin' align="left">
+        {% twitter https://twitter.com/kevritchie maxwidth=500 limit=5 %}
+      </div>
+    </div>
+  </div>
 
 </div>
