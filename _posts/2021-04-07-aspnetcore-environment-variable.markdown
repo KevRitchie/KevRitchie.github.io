@@ -3,7 +3,6 @@ layout: post
 title:  "Setting your ASP.NET Core Environment on Deployment (Right Click Publish) 🐱‍🏍"
 date:   2021-04-07 14:41:06 +0100
 categories: aspnet core environment
-tag: ASP.NET Core
 ---
 
 So you've "Right Click Published" your ASP.NET Core application and things are going great.  Suddenly you hit an error on the site with a message similar to this:
