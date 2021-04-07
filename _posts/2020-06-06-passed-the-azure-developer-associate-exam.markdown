@@ -4,6 +4,7 @@ title:  "Passed the Azure Developer Associate Exam"
 date:   2020-06-06 22:18:52 +0100
 categories: certifications
 redirect_from: "/blog/passed-the-azure-developer-associate-exam/"
+tag: Certification
 ---
 
 **I've taken many Microsoft exams over the years, but this was the first time sitting one in the comfort of my own home.**

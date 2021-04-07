@@ -3,6 +3,7 @@ layout: post
 title:  "Using Azure DevOps and Power Automate to create a basic Report"
 date:   2020-07-03 21:39:52 +0100
 categories: azure devops reporting power automate
+tag: DevOps
 ---
 
 **So, you've got some data in your Azure DevOps project that you'd like to get out and turn into a bespoke report?**

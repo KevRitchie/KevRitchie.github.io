@@ -3,6 +3,7 @@ layout: post
 title:  "Azure DevOps - Build Failed: project.assets.json missing"
 date:   2020-08-01 01:19:42 +0100
 categories: azure devops build pipeline agent pool
+tag: DevOps
 ---
 
 **The one thing you dread seeing...Azure DevOps [Build failed]**

@@ -3,6 +3,7 @@ layout: post
 title:  "Microsoft Graph - First Steps"
 date:   2020-11-22 23:27:31 +0100
 categories: azure microsoft graph app registrations
+tag: Microsoft Graph
 ---
 
 I’ve been interested in Microsoft Graph for some time now but never really had an opportunity to work it into a customer solution.

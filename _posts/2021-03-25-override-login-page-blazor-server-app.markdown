@@ -3,6 +3,7 @@ layout: post
 title:  "Override the Login Page in a Blazor Server App"
 date:   2021-03-25 19:57:06 +0100
 categories: blazor server identity
+tag: Blazor
 ---
 
 I'll admit this one had me stumped.
