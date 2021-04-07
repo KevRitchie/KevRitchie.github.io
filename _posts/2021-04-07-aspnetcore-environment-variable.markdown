@@ -5,7 +5,9 @@ date:   2021-04-07 14:41:06 +0100
 categories: aspnet core environment
 ---
 
-So you've "Right Click Published" your ASP.NET Core application and things are going great.  Suddenly you hit an error on the site with a message similar to this **`The Development environment shouldn't be enabled for deployed applications. It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the Development environment by setting the ASPNETCORE_ENVIRONMENT environment variable to Development and restarting the app`**.
+So you've "Right Click Published" your ASP.NET Core application and things are going great.  Suddenly you hit an error on the site with a message similar to this:
+
+**The Development environment shouldn't be enabled for deployed applications. It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the Development environment by setting the ASPNETCORE_ENVIRONMENT environment variable to Development and restarting the app.**
 
 You've double checked the publish profile settings and everything looks good; you can see it's in release mode.  What gives?!
 
