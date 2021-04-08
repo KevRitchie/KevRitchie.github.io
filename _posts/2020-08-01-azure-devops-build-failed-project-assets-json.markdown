@@ -28,7 +28,7 @@ I changed the Agent Pool to **Azure Pipelines** and set the Agent Specification 
 
 <img src="/images/AzureDevOpsAgentPool.png" alt="Azure DevOps Agent Pool" />
 
-You can see a list of the available virtual machine images here (Agent Specifications) [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software). 
+You can see a list of the available virtual machine images here (Agent Specifications) [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software){:target="_blank"}. 
 
 I also removed the **/t:restore** parameter from the MSBuild task that I previously added.  I was certain this wasn't the problem. 
 

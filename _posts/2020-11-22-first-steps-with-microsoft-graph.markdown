@@ -18,7 +18,7 @@ As this blog post is about Microsoft’s Graph, I’ll keep the details to just 
 
 To get started we’ll need to download the Microsoft.Identity.Client Nuget package into our project.  This will allow us to create the ConfidentialClientApplicationBuilder to generate a token to pass in the request headers when we communicate with the Graph.
 
-Next, we’ll need to store a reference to our authentication authority (https://login.microsoftonline.com/), Tenant ID, Client ID and Client Secret.  For the purpose of this application as it’s internal to us, we’ll store the details in our appSettings.json file.  For any customer-based applications we would be storing these details in the [Azure Key Vault](https://azure.microsoft.com/en-gb/services/key-vault/).
+Next, we’ll need to store a reference to our authentication authority (https://login.microsoftonline.com/), Tenant ID, Client ID and Client Secret.  For the purpose of this application as it’s internal to us, we’ll store the details in our appSettings.json file.  For any customer-based applications we would be storing these details in the [Azure Key Vault](https://azure.microsoft.com/en-gb/services/key-vault/){:target="_blank"}.
 
 To get the Tenant ID, Client ID and Client Secret details we’ll need to register a new App Registration in the Azure Portal.
 
@@ -152,12 +152,12 @@ Am I a Graph believer?  You bet I am.  The possibilities are endless, and we’v
 
 **Resources**
 
-[Register an application with the Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
+[Register an application with the Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){:target="_blank"}
 
-[Configure a client application to access a Web API](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
+[Configure a client application to access a Web API](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis){:target="_blank"}
 
-[List Direct Reports](https://docs.microsoft.com/en-us/graph/api/user-list-directreports?view=graph-rest-1.0&tabs=http)
+[List Direct Reports](https://docs.microsoft.com/en-us/graph/api/user-list-directreports?view=graph-rest-1.0&tabs=http){:target="_blank"}
 
-[Get Photo](https://docs.microsoft.com/en-us/graph/api/profilephoto-get?view=graph-rest-1.0)
+[Get Photo](https://docs.microsoft.com/en-us/graph/api/profilephoto-get?view=graph-rest-1.0){:target="_blank"}
 
 [Go to the Home Page]({{ '/' | absolute_url }})

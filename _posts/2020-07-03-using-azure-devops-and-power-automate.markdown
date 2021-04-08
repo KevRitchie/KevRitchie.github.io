@@ -32,7 +32,7 @@ Here it was just a matter of entering the Organisation Name and Project Name.  Y
 
 Next up was interacting with the On-Premise SQL Server where the data was being stored.
 
-In order to access the On-Premise SQL Server we needed to create a data gateway.  You can find out how to install and configure the data gateway [here](https://docs.microsoft.com/en-us/power-automate/gateway-reference).
+In order to access the On-Premise SQL Server we needed to create a data gateway.  You can find out how to install and configure the data gateway [here](https://docs.microsoft.com/en-us/power-automate/gateway-reference){:target="_blank"}.
 
 Once that was set up and configured, we could then create a new connection to our SQL Server.  After clicking **"+ New connection"** within Data -> Connections, we chose SQL Server.  From there we set the appropriate SQL Authentication credentials, database details and selected the data gateway created previously.
 
@@ -52,7 +52,7 @@ You'll notice that we've not set the Iteration Start and End Date.  The reason b
 
 **Step in Azure DevOps - Analytics**
 
-You can find an explanation of Analytics and what it can do [here](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/what-is-analytics?view=azure-devops).  The bit we're interested in is OData queries.
+You can find an explanation of Analytics and what it can do [here](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/what-is-analytics?view=azure-devops){:target="_blank"}.  The bit we're interested in is OData queries.
 
 In order to get the data out via Analytics we needed to create a Personal Access Token in Azure DevOps.
 
@@ -70,7 +70,7 @@ Make sure to note your new token as you'll need it later.
 
 Now we have our Personal Access Token, we can create a new step in our Flow and add a HTTP action to get the OData from Analytics.
 
-*The following [link](https://docs.microsoft.com/en-us/azure/devops/report/extend-analytics/wit-analytics?view=azure-devops) provides guidance on how to create OData queries*.
+*The following [link](https://docs.microsoft.com/en-us/azure/devops/report/extend-analytics/wit-analytics?view=azure-devops){:target="_blank"} provides guidance on how to create OData queries*.
 
 <img src="/images/HTTPRequestOData.png" alt="Getting Azure DevOps Analytics OData" />
 

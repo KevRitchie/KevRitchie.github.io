@@ -45,8 +45,8 @@ You should see something like this:
 
 **Useful Links**
 
-The Publish Profile environment documentation can be found [here](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/visual-studio-publish-profiles?view=aspnetcore-3.1#set-the-environment).
+The Publish Profile environment documentation can be found [here](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/visual-studio-publish-profiles?view=aspnetcore-3.1#set-the-environment){:target="_blank"}.
 
-For other platforms (including Azure), additional information on Environments and setting the Environment variable can be found [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1#environments).
+For other platforms (including Azure), additional information on Environments and setting the Environment variable can be found [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1#environments){:target="_blank"}.
 
 [Go to the Home Page]({{ '/' | absolute_url }})

@@ -17,7 +17,7 @@ gem "github-pages", "~> 214", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-twitter-plugin"
-  gem 'jekyll-paginate-v2', '~> 3.0'
+  gem 'jekyll-paginate', '~> 1.1'
   gem 'kramdown', '~> 2.3'
 end
 

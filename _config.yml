@@ -48,7 +48,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-target-blank
   - jekyll-gist
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 target-blank:
   rel: nofollow
