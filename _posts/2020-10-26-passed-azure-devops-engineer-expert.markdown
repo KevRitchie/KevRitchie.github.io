@@ -4,6 +4,7 @@ title:  "Passed AZ-400 Azure DevOps Engineer Expert"
 date:   2020-10-26 15:48:42 +0100
 categories: azure devops certifications
 tag: Certification
+image: /images/DevOpsEngineerExpert.png
 ---
 
 **This was a tough one!**
