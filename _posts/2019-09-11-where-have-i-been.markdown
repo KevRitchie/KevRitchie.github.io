@@ -4,6 +4,7 @@ title:  "What year is it?!"
 date:   2019-09-11 22:18:52 +0100
 categories: me
 tag: Me
+image: /images/Logo.jpg
 ---
 
 **So where have you been all this time! 7 years is a long time, right?**
