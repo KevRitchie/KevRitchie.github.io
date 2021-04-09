@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fixing a SSRS Report Drillthrough Issue"
-date:   2021-04-07 14:41:06 +0100
+date:   2021-04-09 15:48:06 +0100
 categories: ssrs reporting
 image: /images/SSRSLogo.png
 tag: SSRS
