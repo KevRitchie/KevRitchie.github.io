@@ -39,5 +39,3 @@ Success!
 I suspect the problem was down to the local NuGet package cache on the Virtual Agent needing a bit of a kick.
 
 If anyone else comes across the problem, I hope this helps.
-
-[Go to the Home Page]({{ '/' | absolute_url }})

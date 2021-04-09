@@ -29,5 +29,3 @@ You'll then be able to customise any of the pages you choose.
 Be carfeul though, if you choose to override the Log Out page, you will run into some issues.  A resolution to this can be found [here](https://github.com/dotnet/aspnetcore/issues/17839){:target="_blank"}.
 
 Need to know more about Blazor authentication and authorisation?  Check out this [page](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/?view=aspnetcore-5.0){:target="_blank"} over on Microsoft Docs.
-
-[Go to the Home Page]({{ '/' | absolute_url }})

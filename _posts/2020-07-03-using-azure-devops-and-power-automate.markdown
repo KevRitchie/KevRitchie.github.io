@@ -109,5 +109,3 @@ And that's it.  Manually triggering our Flow we could see the data was now Flow-
 Now, I appreciate there are probably many ways that this could have been achieved and maybe in fewer steps too.  If so, I'd be happy to hear from you!
 
 Thanks for taking the time to have a read.
-
-[Go to the Home Page]({{ '/' | absolute_url }})

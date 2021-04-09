@@ -159,5 +159,3 @@ Am I a Graph believer?  You bet I am.  The possibilities are endless, and we’v
 [List Direct Reports](https://docs.microsoft.com/en-us/graph/api/user-list-directreports?view=graph-rest-1.0&tabs=http){:target="_blank"}
 
 [Get Photo](https://docs.microsoft.com/en-us/graph/api/profilephoto-get?view=graph-rest-1.0){:target="_blank"}
-
-[Go to the Home Page]({{ '/' | absolute_url }})

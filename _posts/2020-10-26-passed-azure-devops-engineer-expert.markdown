@@ -22,5 +22,3 @@ Here are the resources that I found useful:
 The MS Learn link lays out the prerequisites and skills needed to pass this exam.  What I would say, is try and get as much hands on experience as you can.  Nothing can beat that.  The MS Learn courses do have Sandboxes which is a great feature.  And if you don't have an Azure Subscription, you can get 12 months of free services [here](https://azure.microsoft.com/en-gb/free/){:target="_blank"}.
 
 <img src="/images/DevOpsEngineerExpert.png" alt="Azure DevOps Engineer Expert" />
-
-[Go to the Home Page]({{ '/' | absolute_url }})
